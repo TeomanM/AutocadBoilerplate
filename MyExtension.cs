@@ -45,7 +45,7 @@ namespace AutocadBoilerplate
 
                 Line line = new Line(point1, point2);
 
-                // Add to block table (see AcadUtils.cs)
+                // Add to block table (see DatabaseExtensions.cs)
                 line.AddToModelSpace();
 
                 trans.Commit();
